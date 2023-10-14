@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bungee', sans-serif;
+}
+
+header {
+    padding: 200px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+
+form {
+    text-align: center;
+    margin-top: -100px;
+}
+
+input, button {
+    padding: 11px;
+}
+
+button {
+    background-color: #9b9898;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.container {
+    text-align: center;
+    cursor: pointer;
+}
+
+.concluido {
+    text-decoration: line-through;
+}
